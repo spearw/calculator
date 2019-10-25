@@ -1,0 +1,78 @@
+button{
+    color: #282828;
+    margin: 0.5rem;
+    font-size:1.5rem;
+    box-shadow: 5px 5px 5px #404040;
+    border: 2px darkgray outset
+}
+
+body{
+    background-image: url("woodTable.png")
+}
+
+#title{
+    text-align: center;
+    text-emphasis: bold;
+    padding-top: 0.25rem;
+    text-shadow: 1px 1px 1px black;
+    color: darkgray;
+}
+
+.calcFace{
+    display: grid;
+    max-width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: auto;
+    min-width: 422.4px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 10px;
+  }
+
+.inputField{
+    background-color: #404040;
+    border: 6px #202020 outset;
+  }
+
+#smallInput{
+    font-size: 0.5rem;
+    border: 2px gray inset;
+    position: relative;
+    text-align: right;
+    margin: 0.5rem;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    min-height: 0.75rem;
+    background-color: #C8C8C8;
+}
+
+#bigInput{
+    position: relative;
+    text-align: right;
+    border: 3px gray inset;
+    padding: 0.5rem;
+    margin: 0.5rem;
+    min-height: 1.5rem;
+    background-color: #C8C8C8;
+}
+
+.grayBox{
+    background-color: #C8C8C8;
+}
+
+.number{
+    background-color:#E8E8E8;
+}
+
+.equals{
+    background-color: #A0A0A0;
+    height: auto;
+    grid-row: 4/6;
+    font-size: 1.1rem;
+    font-weight: bold;
+}
